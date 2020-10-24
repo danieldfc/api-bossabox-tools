@@ -3,7 +3,7 @@
 <br />
 
 <p align="center" style="font-weight: bold; font-size: 24px">
-  Este repositório tem o objetivo de criar uma API Rest como desafio da <span style="color: #365df0;">Bossabox</span>! 🚀
+Este repositório tem o objetivo de criar uma API Rest como desafio da <span style="color: #365df0;">Bossabox</span>! 🚀
 </p>
 
 <hr />
