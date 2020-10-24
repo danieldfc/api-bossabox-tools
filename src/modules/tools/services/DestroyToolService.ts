@@ -9,7 +9,7 @@ interface IRequestDTO {
 }
 
 @injectable()
-class CreateToolService {
+class DestroyToolService {
   constructor(
     @inject('ToolsRepository')
     private toolsRepository: IToolsRepository,
@@ -19,11 +19,11 @@ class CreateToolService {
     const findTool = await this.toolsRepository.findById(id);
 
     if (!findTool) {
-      throw new AppError('Tool not found');
+      throw new AppError('Tool not found', 404);
     }
 
     await this.toolsRepository.destroy(findTool);
   }
 }
 
-export default CreateToolService;
+export default DestroyToolService;

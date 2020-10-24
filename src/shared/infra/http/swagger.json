@@ -21,6 +21,20 @@
   "consumes": ["application/json"],
   "produces": ["application/json"],
   "paths": {
+    "/tools/all": {
+      "get": {
+        "tags": ["Tool"],
+        "summary": "List tools",
+        "description": "Routes for tools",
+        "consumes": ["application/json", "application/xml"],
+        "produces": ["application/xml", "application/json"],
+        "responses": {
+          "200": {
+            "description": "Tools is returned"
+          }
+        }
+      }
+    },
     "/tools": {
       "post": {
         "tags": ["Tool"],
@@ -40,14 +54,17 @@
         "consumes": ["application/json", "application/xml"],
         "produces": ["application/xml", "application/json"],
         "responses": {
-          "200": {
+          "400": {
+            "description": "Tool already exists"
+          },
+          "201": {
             "description": "Tool is returned"
           }
         }
       },
       "get": {
         "tags": ["Tool"],
-        "summary": "List tools",
+        "summary": "List tools for tag",
         "description": "Routes for tools",
         "parameters": [
           {
@@ -82,11 +99,11 @@
           }
         ],
         "responses": {
-          "400": {
-            "description": "Invalid id supplied"
-          },
           "404": {
             "description": "Tool not found"
+          },
+          "204": {
+            "description": "Tool deleted"
           }
         }
       }
