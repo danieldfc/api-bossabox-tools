@@ -48,7 +48,7 @@
     "typescript": "^4.0.3"
   },
   "_moduleAliases": {
-    "@modules": "./dist/modules",
-    "@shared": "./dist/shared"
+    "@modules": "dist/modules",
+    "@shared": "dist/shared"
   }
 }
