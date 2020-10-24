@@ -46,5 +46,9 @@
     "ts-node-dev": "^1.0.0",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.0.3"
+  },
+  "_moduleAliases": {
+    "@modules": "./dist/modules",
+    "@shared": "./dist/shared"
   }
 }
