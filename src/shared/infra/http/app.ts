@@ -1,6 +1,10 @@
 import 'reflect-metadata';
 import 'dotenv/config';
 
+if (process.env.NODE_ENV === 'production') {
+  require('module-alias/register');
+}
+
 import express from 'express';
 import swaggerUi from 'swagger-ui-express';
 import cors from 'cors';
@@ -8,7 +12,7 @@ import cors from 'cors';
 import 'express-async-errors';
 
 import '@shared/container';
-import '@shared/infra/typeorm';
+import '../typeorm';
 
 import errorHandler from '@shared/errors/handler';
 
