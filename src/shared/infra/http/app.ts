@@ -7,6 +7,7 @@ import cors from 'cors';
 
 import 'express-async-errors';
 
+import '@shared/container';
 import '@shared/infra/typeorm';
 
 import errorHandler from '@shared/errors/handler';
