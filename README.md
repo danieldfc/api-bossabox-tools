@@ -72,7 +72,7 @@ $ yarn dev
 
 Você ainda pode testar e criar o seu roteamento usando o [insomnia](https://insomnia.rest/), basta inporta-lo clicando neste botão.
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=%5BBossabox%5D%20Vuttr&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdanieldfc%2Fapi-bossabox-tools%2Fmaster%2Finsomnia.json)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=%5BBossabox%5D%20Vuttr&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdanieldfc%2Fapi-bossabox-tools%2Fmaster%2Fexport.json)
 
 <hr />
 
