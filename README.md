@@ -20,6 +20,7 @@ A API Rest foi criada no intuito de facilitar a a criação e busca de ferrament
 - [:scroll: Tabela de conteúdo](#scroll-tabela-de-conteúdo)
 - [:wrench: Ferramentas](#wrench-ferramentas)
 - [:construction: API](#construction-api)
+- [:pushpin: Insomnia](#pushpin-insomnia)
 - [:star2: Contribuição](#star2-contribuição)
 - [:clipboard: Licença](#clipboard-licença)
 
@@ -64,6 +65,14 @@ Em seguida você poderá executar a aplicação em ambiente de desenvolvimento c
 ```sh
 $ yarn dev
 ```
+
+<hr />
+
+## :pushpin: Insomnia
+
+Você ainda pode testar e criar o seu roteamento usando o [insomnia](https://insomnia.rest/), basta inporta-lo clicando neste botão.
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=%5BBossabox%5D%20Vuttr&uri=https%3A%2F%2Fgithub.com%2Fdanieldfc%2Fapi-bossabox-tools%2Fblob%2Fmaster%2Finsomnia.json)
 
 <hr />
 
