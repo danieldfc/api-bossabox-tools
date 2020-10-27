@@ -4,15 +4,15 @@
   "port": 5432,
   "username": "",
   "password": "",
-  "database": "exmample",
+  "database": "example",
   "entities": [
-    "./src/models/*.ts"
+    "src/modules/**/infra/typeorm/entities/*.ts"
   ],
   "migrations": [
-    "./src/database/migrations/*.ts"
+    "src/shared/infra/typeorm/migrations/*.ts"
   ],
   "cli": {
-    "migrationsDir": "./src/shared/infra/typeorm/migrations",
-    "entitiesDir": "./src/models"
+    "migrationsDir": "src/shared/infra/typeorm/migrations",
+    "entitiesDir": "src/modules/**/infra/typeorm/entities"
   }
 }
